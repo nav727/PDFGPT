@@ -130,7 +130,6 @@ python-dateutil==2.8.2
 python-dotenv==1.0.0
 pytz==2023.3.post1
 pytz-deprecation-shim==0.1.0.post0
-pywin32==305.1
 pywinpty==2.0.10
 PyYAML==6.0.1
 pyzmq==23.2.0
