@@ -47,8 +47,8 @@ class PdfQA:
         return pipeline(
             task="text2text-generation",
             model=LLM_FLAN_T5_LARGE,
-            max_new_tokens=200,
-            model_kwargs={"device_map": "auto", "load_in_8bit": load_in_8bit, "max_length": 512, "temperature": 0.}
+            max_new_tokens=512,
+            model_kwargs={"device_map": "auto", "load_in_8bit": load_in_8bit, "max_length": 512, "temperature": 0.2}
         )
     
     @classmethod
